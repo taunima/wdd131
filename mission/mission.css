@@ -1,0 +1,47 @@
+body {
+    background-color: white;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+#mission-content {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 40px 50px;
+    border: 1px solid #000;
+}
+h1 {
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+p {
+    text-align: center;
+    color: #1f5fa8;
+    letter-spacing: 2px;
+    font-size: 0.9em;
+    margin-bottom: 30px;
+}
+hr {
+    width: 80%;
+    margin: 30px auto;
+}
+.main-text {
+    text-align: left;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    color: black;
+}
+.italic-text {
+    font-style: italic;
+    margin-bottom: 15px;
+    color: black;
+    text-align: left;
+}
+ol {
+    padding-left: 20px;
+    line-height: 1.6;
+}
+li {
+    margin-bottom: 15px;
+}
