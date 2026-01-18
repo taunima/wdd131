@@ -45,3 +45,30 @@ ol {
 li {
     margin-bottom: 15px;
 }
+
+body.dark {
+    background-color: #121212;
+    color: white;
+}
+
+body.dark #mission-content {
+    border-color: white;
+    background-color: #1e1e1e;
+}
+
+body.dark p,
+body.dark .main-text,
+body.dark .italic-text,
+body.dark li {
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+footer img {
+    width: 150px;
+}
