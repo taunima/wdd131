@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="CreditCard form.">
+    <meta name="author" content="Simon Taunima">
+    <title>Credit Card Form</title>
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <link rel="stylesheet" href="card.css">
+    <script src="card.js" defer></script>
+</head>
+<body>
+<div class="card">
+    <h3>TOTAL: $199 💳</h3>
+    <form id="creditForm">
+        <label for="cardNumber">CARD NUMBER</label>
+        <input type="text" id="cardNumber" name="cardNumber"
+               placeholder="1234 1234 1234 1234" required>
+        <label for="cardHolder">CARD HOLDER</label>
+        <input type="text" id="cardHolder" name="cardHolder"
+               placeholder="John Doe" required>
+        <div id="cardExpiration">
+            <label id="expirationDate">EXPIRATION</label>
+            <input type="text" id="month" name="expMonth"
+                   placeholder="MM" aria-labelledby="expirationDate" required>
+            <input type="text" id="year" name="expYear"
+                   placeholder="YY" aria-labelledby="expirationDate" required>
+        </div>
+        <label for="cvc">CVC/CVV</label>
+        <input type="text" id="cvc" name="cvc"
+               placeholder="xxx" required>
+        <button type="submit">Submit</button>
+        <div class="feedback" id="feedback"></div>
+    </form>
+</div>
+</body>
+</html>

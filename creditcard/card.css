@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background: #d9d9d9;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+    width: 350px;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+}
+
+#cardExpiration {
+    display: flex;
+    gap: 10px;
+}
+
+#cardExpiration input {
+    width: 60px;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #333;
+}
+
+.feedback {
+    margin-top: 10px;
+    font-weight: bold;
+}
