@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:type" content="website">
+    <meta name="title" content="Character Card">
+    <meta name="description" content="Character Card- A character that can take damage and level up.">
+    <meta name="url" content="">
+    <meta name="author" content="Simon Taunima">
+    <link rel="icon" href="/favicon.ico">
+    <title>Character Card</title>
+    <link rel="stylesheet" href="character.css">
+    <script src="character.js" defer></script>
+</head>
+    <body>
+        <div class="card">
+            <img class="image" id="characterImage" src="images/snortleblat.png" alt="Snortleblat">
+        <div class="name" id="characterName"></div>
+        <div class="stats">
+            <p><strong>Class:</strong> <span id="characterClass"></span></p>
+            <p><strong>Level:</strong> <span id="characterLevel"></span></p>
+            <p><strong>Health:</strong> <span id="characterHealth"></span></p>
+        </div>
+        <div class="buttons">
+            <button id="attackBtn">Attacked</button>
+            <button id="levelBtn">Level Up</button>
+        </div>
+        </div>
+    </body>
+</html>
