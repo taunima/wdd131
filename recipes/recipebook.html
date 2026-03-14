@@ -3,6 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Your Name">
+        <meta name="description" content="RecipeBook of a collection of easy and delicious recipes.">
         <!-- Open Graph (Facebook, LinkedIn, etc.) -->
         <meta property="og:type" content="website">
         <meta property="og:title" content="RecipeBook">
@@ -15,11 +17,12 @@
         <meta name="twitter:description" content="A collection of recipes">
         <meta name="twitter:image" content="social-preview-image.png">
         <!-- One favicon (ICO works everywhere) -->
-        <link rel="icon" href="/favicon.ico">
+        <link rel="icon" href="favicon.ico">
         <!-- One Apple Touch Icon (iOS home screen) -->
         <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
         <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="recipebook.css">            
+        <link rel="stylesheet" href="recipebook.css"> 
+        <script src="recipebook.js" defer></script> 
         <title>RecipeBook</title>
     </head>
     <body>
@@ -28,31 +31,17 @@
                 <img src="images/recipe-book.png" alt="RecipeBook logo">
                 <h1>RecipeBook</h1>
             </div>
-            <div class="search">
-                <input type="text" placeholder="Search recipes">
-                <button>
+            <nav class="search">
+                <input id="searchInput" type="text" placeholder="Search recipes">
+                <button id="button">
                     <img src="images/search.svg" alt="search icon">
                 </button>
-            </div>
-
+            </nav>
         </header>
         <main>
             <section class="recipe">
-                <img class="recipe-img" src="images/apple-crisp.jpg" alt="Apple Crisp">
-                <div class="recipe-content">
-                    <h2>Apple Crisp</h2>
-                    <p class="description">This easy apple crisp recipe is full of cinnamon apples and topped with a crunchy oat topping.</p>
-                    <span
-                        class="rating"
-                        role="img"
-                        aria-label="Rating: 4 out of 5 stars"
-                    >
-                    <span aria-hidden="true" class="icon-star">⭐</span>
-                    <span aria-hidden="true" class="icon-star">⭐</span>
-                    <span aria-hidden="true" class="icon-star">⭐</span>
-                    <span aria-hidden="true" class="icon-star">⭐</span>
-                    <span aria-hidden="true" class="icon-star-empty">☆</span>
-                    </span>
+                <div id="recipeContainer" class="recipe-content">
+                    
                 </div>
             </section>
         </main>
