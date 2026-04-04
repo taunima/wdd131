@@ -1,3 +1,5 @@
+/*I used the help of AI on the getting the filtering functionality to work. */
+
 const projects = [
   { title: "Portfolio Website", category: "software" },
   { title: "Weather App", category: "software" },
