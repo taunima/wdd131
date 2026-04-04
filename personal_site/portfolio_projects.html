@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="The projects page of my portfolio."> 
+        <meta name="author" content="Simon Taunima">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Projects of Simon's Portfolio">
+        <meta property="og:description" content="The projects page of my portfolio.">
+        <meta property="og:url" content="">
+        <link rel="icon" href="images/favicon.ico">
+        <title>Projects</title>
+        <link rel="stylesheet" href="simon_portfolio.css">
+        <script src="simon_portfolio.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <img src="images/ST_monogram_logo.png" alt="Logo" class="logo">
+            <ul>
+                <li><a href="simon_portfolio.html">Home</a></li>
+                <li><a href="portfolio_projects.html">Projects</a></li>
+            </ul>
+            </nav> 
+        </header>
+        <section class="projects-page">
+            <h1>My Projects</h1>
+                <div class="buttons">
+                    <button onclick="filterProjects('all')">All</button>
+                    <button onclick="filterProjects('software')">Software Development</button>
+                    <button onclick="filterProjects('data')">Data Science</button>
+                </div>
+                <div id="projects-container" class="project-grid"></div>
+        </section>
+    </body>
+</html>
